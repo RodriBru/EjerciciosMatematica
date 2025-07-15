@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Resolver Ecuación con x</title>
+  <link rel="stylesheet" href="Styles.css" />
+</head>
+<body>
+
+  <h1>🔢 Resolver Ecuación con 'x'</h1>
+
+  <div class="info-box">
+    <h2>ℹ️ ¿Cómo funciona?</h2>
+    <p class="info-text">Escribí una ecuación con paréntesis e incógnita <strong>x</strong> para ver cómo se resuelve paso a paso.</p>
+    
+    <div class="ejemplos">
+      <h4>📌 Ejemplos válidos:</h4>
+      <ul>
+        <li><code>3(x - 5) = (x - 3)2</code></li>
+        <li><code>2x + 4 = 5(x - 1)</code></li>
+        <li><code>4(x+1) = 2x - 6</code></li>
+      </ul>
+    </div>
+
+    <div class="reglas">
+      <p class="ok">✅ Permitido: paréntesis, sumas, restas, multiplicación, incógnita x</p>
+      <p class="error">❌ Por ahora: sin fracciones ni potencias.</p>
+    </div>
+  </div>
+
+  <input type="text" id="ecuacion" placeholder="Ej: 3(x - 5) = (x - 3)2" />
+  <button onclick="resolverEcuacion()">Resolver</button>
+
+  <div id="pasos"></div>
+
+  <footer id="creditos">
+    Hecho con ❤️ por Rodrigo – App educativa 1.0
+  </footer>
+
+  <script src="Scripts.js"></script>
+</body>
+</html>

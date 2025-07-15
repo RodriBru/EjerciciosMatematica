@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Caja informativa principal */
+.info-box {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-size: 1em;
+  margin-bottom: 25px;
+}
+
+.info-box h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+  color: #007bff;
+}
+
+.info-text {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Ejemplos en lista */
+.ejemplos h4 {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.ejemplos ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.ejemplos li code {
+  background: #f1f1f1;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+/* Reglas */
+.ok {
+  color: green;
+  margin-bottom: 5px;
+}
+
+.error {
+  color: red;
+}
+
+/* Input */
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1em;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Botón */
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Sección de pasos */
+#pasos {
+  margin-top: 25px;
+  font-size: 1.05em;
+  line-height: 1.6em;
+}
+
+.paso {
+  margin-bottom: 15px;
+  background: #e6f3ff;
+  padding: 15px;
+  border-left: 5px solid #007bff;
+  border-radius: 6px;
+}
+
+.paso h4 {
+  margin: 0 0 5px;
+  color: #007bff;
+}
+
+.paso p {
+  margin: 5px 0;
+  color: #333;
+}
+
+/* Footer */
+#creditos {
+  margin-top: 40px;
+  text-align: center;
+  color: #666;
+  font-size: 0.9em;
+}
